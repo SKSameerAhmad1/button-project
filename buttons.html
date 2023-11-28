@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project on button with event listener using HTML & JS</title>
+</head>
+<body>
+    <button id="click">click</button>
+    <button id="dblclick">double click</button>
+    <button id="mouseover">mouse over</button>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById("click").addEventListener("click", function(){
+            alert("Your click event is working properly.")
+        })
+
+        document.getElementById("dblclick").addEventListener("dblclick", function(){
+            alert("Your double click event is working properly.")
+        })
+
+        document.getElementById("mouseover").addEventListener("mouseover", function(){
+            alert("Your mouse over event is working properly.")
+        })
+    </script>
+</body>
+</html>
